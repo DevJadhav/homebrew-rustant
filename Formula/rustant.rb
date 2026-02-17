@@ -7,20 +7,20 @@ class Rustant < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/DevJadhav/Rustant/releases/download/v#{version}/rustant-macos-aarch64.tar.gz"
-      sha256 "1d32501dbb81fbf063e3afdd614bf30a71a2e934e90cd0d1dbd2141190b7a15f"
+      sha256 "e25880799ed4f8cda8af0e1bbb86752b0d6b151fe90c1ffadb53a72bb6efafba"
     else
       url "https://github.com/DevJadhav/Rustant/releases/download/v#{version}/rustant-macos-x86_64.tar.gz"
-      sha256 "4fe3c44b184639ce187f55a9b314639ddbc710c8601b7d8a3825a6729f5591cc"
+      sha256 "c65368324cbd492ee0a4dbab4acc1a3f28d8cbc636cf5626743d2289e7467421"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/DevJadhav/Rustant/releases/download/v#{version}/rustant-linux-aarch64.tar.gz"
-      sha256 "cbca55096570911d7de67d3f109aca92a64ebaea17b5c719410d2f6787f5f80f"
+      sha256 "5a3c53c091784dc83b50a50b9eedc5643c1f97de9f552fb1e30392116cae2e6d"
     else
       url "https://github.com/DevJadhav/Rustant/releases/download/v#{version}/rustant-linux-x86_64.tar.gz"
-      sha256 "e899a15391a3261d73b9d7e21c4ecffd079c37ef40584b7a78a2b967b25669fe"
+      sha256 "2b082534611d3646c77321f0e0261b30d3cfa71f7f72ea253e39cdb438028986"
     end
   end
 
